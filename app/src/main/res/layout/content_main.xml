@@ -18,13 +18,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/mobile_navigation" />
 
-    <ListView
+    <!--<ListView
         android:id="@+id/mainListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintEnd_toEndOf="@+id/nav_host_fragment"
         app:layout_constraintStart_toStartOf="@+id/nav_host_fragment"
-        tools:layout_editor_absoluteY="81dp" />
+        tools:layout_editor_absoluteY="81dp" />-->
 
 
 

@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
 
 
-
+        /*
         String[] maintitle ={
                 "Mushroom-Quinoa Burger",
                 "Tofu Pad Thai",
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
             }
-        });
+        });*/
 
     }
 
