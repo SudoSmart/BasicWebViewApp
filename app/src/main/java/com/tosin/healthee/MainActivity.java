@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,
-                R.id.nav_tools, R.id.nav_share, R.id.nav_send)
+                R.id.nav_tools, R.id.nav_share, R.id.nav_send )
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -67,75 +67,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
 
 
-        /*
-        String[] maintitle ={
-                "Mushroom-Quinoa Burger",
-                "Tofu Pad Thai",
-                "10 Things to Know About Anxiety",
-                "10 health benefits of daily yoga practice" ,
-                "Zucchanoush",
-                "Creamy Roasted Squash Puree",
-                "9 Ways Practicing Yoga Benefits Your Health and Well-Being",
-                "What Is a Mendiant? Everything You Need to Know About the Chocolate Treat" ,
 
-
-        };
-
-        String[] subtitle ={
-                "2 days ago",
-                "2 days ago",
-                "2 days ago",
-                "2 days ago",
-                "2 days ago",
-                "2 days ago",
-                "2 days ago",
-                "2 days ago"
-        };
-
-        Integer[] imgid={
-                R.drawable.vegan1,R.drawable.vegan2,
-                R.drawable.mentalhealth,
-                R.drawable.yoga1,R.drawable.vegan3,
-                R.drawable.vegan4,
-                R.drawable.yoga2,
-                R.drawable.vegan5
-        };
-        ListView mainListView  = (ListView)findViewById(R.id.mainListView);
-        customListAdapter adapter = new customListAdapter(this , maintitle , subtitle , imgid);
-        mainListView.setAdapter((adapter));
-
-
-        mainListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
-                // TODO Auto-generated method stub
-                if(position == 0) {
-                    String url = "https://www.goodhousekeeping.com/food-recipes/a38846/mushroom-quinoa-burger-recipe/";
-                    //Intent intent = new Intent(getApplicationContext(), openPage.class);
-                    //startActivity(intent);
-                }
-
-                else if(position == 1) {
-                    //code specific to 2nd list item
-                    Toast.makeText(getApplicationContext(),"Place Your Second Option Code",Toast.LENGTH_SHORT).show();
-                }
-
-                else if(position == 2) {
-
-                    Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
-                }
-                else if(position == 3) {
-
-                    Toast.makeText(getApplicationContext(),"Place Your Forth Option Code",Toast.LENGTH_SHORT).show();
-                }
-                else if(position == 4) {
-
-                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
-                }
-
-            }
-        });*/
 
     }
 

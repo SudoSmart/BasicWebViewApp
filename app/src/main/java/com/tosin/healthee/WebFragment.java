@@ -26,11 +26,11 @@ public class WebFragment extends Fragment {
         return inflater.inflate(R.layout.web_fragment, container, false);
     }
 
-    @Override
+   /* @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         mViewModel = ViewModelProviders.of(this).get(WebViewModel.class);
         // TODO: Use the ViewModel
-    }
+    }*/
 
 }
